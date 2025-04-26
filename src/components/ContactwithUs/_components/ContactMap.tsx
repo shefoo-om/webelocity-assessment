@@ -3,7 +3,7 @@ import React from "react";
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import { Icon } from "leaflet";
-import PinIcon from "@/assets/Pin.png"; 
+import PinIcon from "@/Assets/Pin.png"; 
 
 interface MapMarker {
     geocode: [number, number];
